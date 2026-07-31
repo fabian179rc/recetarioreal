@@ -107,7 +107,7 @@ h1, h2, h3 { text-wrap: balance; margin: 0; font-weight: 700; }
 
 /* HERO */
 .hero { padding-top: 3.2rem; padding-bottom: 4.5rem; }
-@media (max-width: 720px) { .hero { padding-top: 1.6rem; padding-bottom: 2.2rem; } }
+@media (max-width: 720px) { .hero { padding-top: 3.6rem; padding-bottom: 2.2rem; } }
 .hero-grid {
   display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 3rem; align-items: center;
   max-width: 1080px; margin: 0 auto;
