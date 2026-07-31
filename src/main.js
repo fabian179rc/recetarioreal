@@ -1,10 +1,5 @@
 import './style.css';
 
-document.querySelector('.theme-toggle').addEventListener('click', () => {
-  var root = document.documentElement;
-  root.setAttribute('data-theme', root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
-});
-
 (function () {
   var hero = document.querySelector('.hero');
   var statsBar = document.querySelector('.stats-bar');
